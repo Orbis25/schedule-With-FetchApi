@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <title>Agenda</title>
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <i class="far fa-address-book"></i>
+            <h1 class="font">Agenda Con Fetch Api</h1>
+            <span class="font">
+                Orbis Alonzo G.
+                20164036
+            </span>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row1">
+            <div class="col1">
+                <h2 class="font">Agregar contacto</h2>
+                <form action="#" id="form">
+                    <div class="form">
+                        <div class="imp1 font">
+                            <label for="">Nombre:</label>
+                            <input type="text" id="name" class="name">
+                        </div>
+                        <div class="imp2 font">
+                            <label for="">Apellido:</label>
+                            <input type="text" id="lastName" class="lastName">
+                        </div>
+                        <div class="imp3 font">
+                            <label for="">Numero:</label>
+                            <input type="text" id="phone" class="phone">
+                        </div>
+                    </div>
+                    <div class="imp3 font">
+                        <button class="btn-enviar">
+                            Enviar
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row2">
+            <div class="col2">
+                <h2 class="font">Contactos</h2>
+                <div class="info-contact font">
+                    <table class=" font" id="table" >
+                        <thead>
+                            <tr>
+                                <th>
+                                    Nombre
+                                </th>
+                                <th>
+                                    Apellido
+                                </th>
+                                <th>
+                                    Telefono
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody id="data" >
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <footer>orbis</footer> -->
+    <script src="main.js"></script>
+</body>
+
+</html>
